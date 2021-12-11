@@ -1,0 +1,128 @@
+@import "../../global.scss";
+
+.hero {
+	display: flex;
+	flex-flow: column;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	min-height: 90vh;
+	background-image: url("../../img/formula-1-img-1.JPG");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	box-shadow: inset 0 0 0 2000px rgba($gunmetal, 0.5);
+
+	@media only screen and (max-width: $medium) {
+		min-height: 70vh;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 75vw;
+		margin: auto;
+
+		h1 {
+			color: $baby-powder;
+			padding-bottom: 3rem;
+			text-align: center;
+			.cronos {
+				font-size: 4rem;
+				font-weight: 900;
+				text-transform: uppercase;
+				letter-spacing: -0.05em;
+				line-height: 1.2;
+
+				.point {
+					color: $flame;
+					margin-left: 0.1rem;
+				}
+			}
+
+			p {
+				font-size: 2rem;
+				font-weight: 200;
+			}
+		}
+
+		.search-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: $baby-powder;
+
+			width: 50vw;
+			// min-height: 3.5rem;
+			border-radius: 0.3125rem;
+
+			.search-area {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: left;
+				width: 100%;
+
+				.search-btn {
+					background-color: transparent;
+					border: none;
+					cursor: pointer;
+					padding: 1rem 2rem;
+
+					.icon {
+						font-size: 1.9rem;
+					}
+				}
+				.input-wrapper {
+					border-right: 1px solid rgba(2, 2, 11, 0.1);
+					flex: 80%;
+					// text-align: center;
+					input {
+						min-width: 80%;
+						height: 3.125rem;
+						padding-left: 2rem;
+						color: $gunmetal;
+						border-style: none;
+						font-size: 1rem;
+						font-weight: 400;
+						color: rgba(2, 2, 11, 0.5);
+						&::placeholder {
+							color: rgba(2, 2, 11, 0.7);
+						}
+
+						&:focus {
+							color: $gunmetal;
+							outline-width: 0;
+						}
+					}
+				}
+
+				.filter-wrapper {
+					flex: 20%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding: 0;
+					margin: 0;
+
+					.filter {
+						border: none;
+						height: 3.125rem;
+						color: $gunmetal;
+						border-style: none;
+						font-size: 1rem;
+						font-weight: 400;
+
+						&:focus {
+							color: $gunmetal;
+							outline: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

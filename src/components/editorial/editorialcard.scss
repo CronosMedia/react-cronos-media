@@ -1,0 +1,58 @@
+@import "../../global.scss";
+
+.card {
+	position: relative;
+	width: 100%;
+	max-width: 60rem;
+
+	.grow {
+		display: inline-block;
+		overflow: hidden;
+		border-radius: 0.4rem;
+
+		.img-card {
+			display: block;
+			width: 100%;
+			max-width: 60rem;
+			transition: transform 0.5s ease;
+			max-width: 100%;
+		}
+		img {
+			transition: all 0.5s ease-in-out;
+
+			&:hover {
+				transform: scale(1.1);
+				overflow: hidden;
+			}
+		}
+	}
+
+	.overlay-card {
+		position: absolute;
+		overflow: hidden;
+		bottom: 0;
+		background: $gunmetal;
+		background: rgba($gunmetal, 0.7);
+		color: $baby-powder;
+		width: 100%;
+		height: 5rem;
+		min-height: 40%;
+		transition: 0.5s ease-in-out;
+		opacity: 0;
+		font-size: 1rem;
+		padding: 1.5rem;
+		text-align: left;
+		margin-bottom: 0.2rem;
+		border-bottom-left-radius: 0.4rem;
+		border-bottom-right-radius: 0.4rem;
+
+		h3 {
+			padding-bottom: 0.75rem;
+			text-transform: uppercase;
+		}
+	}
+
+	&:hover .overlay-card {
+		opacity: 1;
+	}
+}

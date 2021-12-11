@@ -1,0 +1,116 @@
+/* SCSS HEX */
+$flame: #d36135ff;
+$maximum-blue: #4ba3c3ff;
+$middle-yellow: #ffe900ff;
+$baby-powder: #fcfff7ff;
+$rich-black-fogra-39: #02020bff;
+$gunmetal: #232c33ff;
+$gray-footer: #212529;
+$light-gray-footer: #e9ecef;
+$gray-link-hover-footer: #6c757d;
+
+/* SCSS HSL */
+$flame: hsla(17, 64%, 52%, 1);
+$maximum-blue: hsla(196, 50%, 53%, 1);
+$middle-yellow: hsla(55, 100%, 50%, 1);
+$baby-powder: hsla(82, 100%, 98%, 1);
+$rich-black-fogra-39: hsla(240, 69%, 3%, 1);
+$gunmetal: hsla(206, 19%, 17%, 1);
+
+/* SCSS RGB */
+$flame: rgba(211, 97, 53, 1);
+$maximum-blue: rgba(75, 163, 195, 1);
+$middle-yellow: rgba(255, 233, 0, 1);
+$baby-powder: rgba(252, 255, 247, 1);
+$rich-black-fogra-39: rgba(2, 2, 11, 1);
+$gunmetal: rgba(35, 44, 51, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(
+	0deg,
+	#d36135ff,
+	#4ba3c3ff,
+	#ffe900ff,
+	#fcfff7ff,
+	#02020bff,
+	#232c33ff
+);
+$gradient-right: linear-gradient(
+	90deg,
+	#d36135ff,
+	#4ba3c3ff,
+	#ffe900ff,
+	#fcfff7ff,
+	#02020bff,
+	#232c33ff
+);
+$gradient-bottom: linear-gradient(
+	180deg,
+	#d36135ff,
+	#4ba3c3ff,
+	#ffe900ff,
+	#fcfff7ff,
+	#02020bff,
+	#232c33ff
+);
+$gradient-left: linear-gradient(
+	270deg,
+	#d36135ff,
+	#4ba3c3ff,
+	#ffe900ff,
+	#fcfff7ff,
+	#02020bff,
+	#232c33ff
+);
+$gradient-top-right: linear-gradient(
+	45deg,
+	#d36135ff,
+	#4ba3c3ff,
+	#ffe900ff,
+	#fcfff7ff,
+	#02020bff,
+	#232c33ff
+);
+$gradient-bottom-right: linear-gradient(
+	135deg,
+	#d36135ff,
+	#4ba3c3ff,
+	#ffe900ff,
+	#fcfff7ff,
+	#02020bff,
+	#232c33ff
+);
+$gradient-top-left: linear-gradient(
+	225deg,
+	#d36135ff,
+	#4ba3c3ff,
+	#ffe900ff,
+	#fcfff7ff,
+	#02020bff,
+	#232c33ff
+);
+$gradient-bottom-left: linear-gradient(
+	315deg,
+	#d36135ff,
+	#4ba3c3ff,
+	#ffe900ff,
+	#fcfff7ff,
+	#02020bff,
+	#232c33ff
+);
+$gradient-radial: radial-gradient(
+	#d36135ff,
+	#4ba3c3ff,
+	#ffe900ff,
+	#fcfff7ff,
+	#02020bff,
+	#232c33ff
+);
+
+$x-small: 37.5em; //max-width: 500px;
+$small: 37.5em; //min-width: 600px;
+$medium: 48em; //min-width: 768px;
+$large: 62em; //min-width: 992px;
+$xlarge: 75em; //min-width: 1200px;
+
+////////////////////////////////////////////////////

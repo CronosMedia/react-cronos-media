@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import BestOffer from "./components/bestoffer/BestOffer";
+import Categories from "./components/categories/Categories";
+import Featured from "./components/featured/Featured";
+import Footer from "./components/footer/Footer";
+import Heading from "./components/heading/Heading";
+import Hero from "./components/hero/Hero";
+import Menu from "./components/menu/Menu";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [menuOpen, setMenuOpen] = useState(false);
+	return (
+		<div className="app">
+			<Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+			<Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+			<Hero />
+			<Heading />
+			<Featured />
+			<BestOffer />
+			<Categories />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
