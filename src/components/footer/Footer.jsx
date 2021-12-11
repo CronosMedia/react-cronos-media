@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./footer.scss";
 
 const Footer = () => {
@@ -67,15 +68,19 @@ const Footer = () => {
 							Legal<span>.</span>
 						</h3>
 						<div className="column-items">
-							<a href="/preturi" className="item-link">
+							<a
+								href="/termeni-si-conditii"
+								className="item-link">
 								Termeni și Condiții
 							</a>
-							<a href="/preturi" className="item-link">
+							<a
+								href="/conditii-de-licentiere"
+								className="item-link">
 								Condiții de Licențiere
 							</a>
-							<a href="/preturi" className="item-link">
+							<Link to="/despre-cookies" className="item-link">
 								Despre Cookies
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

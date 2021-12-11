@@ -7,6 +7,7 @@ import Heading from "./components/heading/Heading";
 import Hero from "./components/hero/Hero";
 import Menu from "./components/menu/Menu";
 import Navbar from "./components/navbar/Navbar";
+import "./app.scss";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
