@@ -1,0 +1,3 @@
+Cronos este o agenție de stock photo care furnizează unele dintre cele mai bune imagini din industrie!
+Agenția noastră acoperă principalele evenimente care au loc în România (sport, politică etc.). Deținem drepturi exclusive de distribuție a întregii producții foto prin parteneriate cu agenții din Marea Britanie, Germania, și Cehia. Avem, de asemenea, parteneriate cu fotografi independenți din toată Europa.
+Pe site-ul nostru veți găsi o varietate mare de fotografii din mai multe domeniii precum politică, stil de viață, material editorial, călătorii etc.

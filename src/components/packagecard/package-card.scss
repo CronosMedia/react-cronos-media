@@ -1,0 +1,98 @@
+@import "../../global.scss";
+
+.package-card {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	justify-content: space-between;
+	// min-height: 500px;
+	// width: 400px;
+	border: 1px solid $rich-black-fogra-39;
+	border-radius: 0.4rem;
+	margin: 3rem auto;
+
+	.title {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		padding: 1.5rem;
+		background-color: $gray-footer;
+		color: $baby-powder;
+		min-height: 30%;
+
+		h2 {
+			font-size: 2rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			margin-bottom: 1rem;
+		}
+
+		p {
+			font-size: 1.3rem;
+			font-weight: 500;
+			line-height: 1.8;
+			margin-bottom: 0.5rem;
+		}
+	}
+
+	.medium {
+		background-color: $flame;
+	}
+
+	.options {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: left;
+		padding: 1rem 1.5rem;
+		word-break: keep-all;
+
+		p {
+			font-size: 1.2rem;
+			font-weight: 400;
+			line-height: 1.8;
+		}
+	}
+
+	.price {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		padding: 1rem 1.5rem;
+
+		h3 {
+			font-size: 4rem;
+			font-weight: 800;
+		}
+	}
+
+	.package-btn {
+		padding: 1.5rem;
+		margin: 1.5rem;
+		background-color: $flame;
+		color: $baby-powder;
+		border-radius: 0.4rem;
+		cursor: pointer;
+		transition: 0.4s;
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: 400;
+		text-transform: uppercase;
+		text-decoration: none;
+
+		&:hover {
+			background-color: $gray-footer;
+		}
+
+		.package-btn {
+			background-color: $flame;
+			color: $baby-powder;
+		}
+
+		&:hover {
+			background-color: $gray-footer;
+		}
+	}
+}

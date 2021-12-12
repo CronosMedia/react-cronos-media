@@ -11,15 +11,15 @@ const Footer = () => {
 							Oferte<span>.</span>
 						</h3>
 						<div className="column-items">
-							<a href="/preturi" className="item-link">
+							<Link to="/preturi" className="item-link">
 								Prețuri și Licențe
-							</a>
-							<a href="/preturi" className="item-link">
+							</Link>
+							<Link to="/preturi" className="item-link">
 								Categorii de Imagini
-							</a>
-							<a href="/preturi" className="item-link">
+							</Link>
+							<Link to="/preturi" className="item-link">
 								Fotografie la Cerere
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -30,15 +30,15 @@ const Footer = () => {
 							Cronos<span>.</span>
 						</h3>
 						<div className="column-items">
-							<a href="/preturi" className="item-link">
+							<Link to="/despre-noi" className="item-link">
 								Despre Noi
-							</a>
-							<a href="/preturi" className="item-link">
+							</Link>
+							<Link to="/preturi" className="item-link">
 								Lucrează cu noi
-							</a>
-							<a href="/preturi" className="item-link">
+							</Link>
+							<Link to="/preturi" className="item-link">
 								Blog
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -49,15 +49,15 @@ const Footer = () => {
 							Contact<span>.</span>
 						</h3>
 						<div className="column-items">
-							<a href="/preturi" className="item-link">
+							<Link to="/preturi" className="item-link">
 								Clienți
-							</a>
-							<a href="/preturi" className="item-link">
+							</Link>
+							<Link to="/preturi" className="item-link">
 								Fotografi
-							</a>
-							<a href="/preturi" className="item-link">
+							</Link>
+							<Link to="/preturi" className="item-link">
 								Întrebări Frecvente
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -68,16 +68,16 @@ const Footer = () => {
 							Legal<span>.</span>
 						</h3>
 						<div className="column-items">
-							<a
-								href="/termeni-si-conditii"
+							<Link
+								to="/termeni-si-conditii"
 								className="item-link">
 								Termeni și Condiții
-							</a>
-							<a
-								href="/conditii-de-licentiere"
+							</Link>
+							<Link
+								to="/conditii-de-licentiere"
 								className="item-link">
 								Condiții de Licențiere
-							</a>
+							</Link>
 							<Link to="/despre-cookies" className="item-link">
 								Despre Cookies
 							</Link>
@@ -91,15 +91,15 @@ const Footer = () => {
 							Social<span>.</span>
 						</h3>
 						<div className="column-items">
-							<a href="/preturi" className="item-link">
+							<Link to="/preturi" className="item-link">
 								Instagram
-							</a>
-							<a href="/preturi" className="item-link">
+							</Link>
+							<Link to="/preturi" className="item-link">
 								Facebook
-							</a>
-							<a href="/preturi" className="item-link">
+							</Link>
+							<Link to="/preturi" className="item-link">
 								Twitter
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -108,12 +108,12 @@ const Footer = () => {
 			<div className="small-footer-wrapper">
 				<div className="small-footer-copyright-info">
 					<p className="copyright-text">
-						copyright &#169; 2022{" "}
 						<a
 							href="https://cronosmedia.ro"
 							className="copyright-link">
-							Cronos Media
-						</a>
+							CRONOS
+						</a>{" "}
+						&#169; 2022
 					</p>
 				</div>
 
@@ -123,7 +123,7 @@ const Footer = () => {
 						<a
 							href="https://netfan.ro/servicii-de-web-design"
 							className="copyright-link">
-							NetFan Web Design
+							NetFan
 						</a>
 					</p>
 				</div>

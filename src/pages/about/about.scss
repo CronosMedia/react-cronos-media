@@ -1,0 +1,86 @@
+@import "../../global.scss";
+
+.section {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	.content-wrapper {
+		width: 1200px;
+		display: flex;
+		flex-direction: column;
+		align-content: left;
+		justify-content: center;
+		margin: 4rem auto;
+
+		h1 {
+			margin-bottom: 1.5rem;
+			margin: 0 auto 2rem;
+			font-size: 3rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			color: $gunmetal;
+		}
+
+		h2 {
+			margin: 2rem 0 1rem;
+			font-size: 2rem;
+			font-weight: 600;
+			padding-left: 2rem;
+		}
+
+		p {
+			font-size: 1.2rem;
+			font-weight: 300;
+			line-height: 1.5;
+			text-indent: 2rem;
+		}
+
+		ul {
+			margin-left: 3.1rem;
+		}
+
+		a {
+			text-decoration: none;
+			color: $flame;
+			transition: 0.4s ease-in-out;
+
+			&:hover {
+				color: $gunmetal;
+			}
+		}
+	}
+}
+
+.featured {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	padding: 0 2.5rem 2.5rem 2.5rem;
+	border-bottom: 1px solid $rich-black-fogra-39;
+
+	@media only screen and (max-width: $x-small) {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+		padding: 0 1rem 1rem 1rem;
+	}
+
+	@media only screen and (max-width: $small) {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+		padding: 0 1rem 1rem 1rem;
+	}
+
+	@media only screen and (min-width: $small) {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+		padding: 0 1rem 1rem 1rem;
+	}
+
+	@media only screen and (min-width: $medium) {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		padding: 0 1rem 1rem 1rem;
+	}
+
+	@media only screen and (min-width: $large) {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		padding: 0 1rem 1rem 1rem;
+	}
+}

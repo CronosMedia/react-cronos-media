@@ -14,12 +14,12 @@ const TermsAndConditions = () => {
 				<h1>Termene și condiții</h1>
 				<h2>1. Acceptarea acestor termene</h2>
 				<p>
-					Accesul și utilizarea acestui website,
-					www.dianaseceleanu.ro, se supun acestor „Termene și
-					condiții”. Nu vei folosi acest website în scopuri ilegale
-					sau interzise prin termenele și condițiile care urmează.
-					Prin utilizarea website-ului acceptați acest lucru, în caz
-					contrar fiind necesară întreruperea utilizării webiste-ului.
+					Accesul și utilizarea acestui website, www.cronosmedia.ro,
+					se supun acestor „Termene și condiții”. Nu vei folosi acest
+					website în scopuri ilegale sau interzise prin termenele și
+					condițiile care urmează. Prin utilizarea website-ului
+					acceptați acest lucru, în caz contrar fiind necesară
+					întreruperea utilizării webiste-ului.
 				</p>
 				<h2>2. Recomandări</h2>
 				<p>
@@ -31,17 +31,17 @@ const TermsAndConditions = () => {
 				<p>
 					Completarea datelor personale pe acest website reprezintă
 					acordul ca acestea să intre în baza de date a
-					dianaseceleanu.ro, precum și să fie prelucrate conform
+					cronosmedia.ro, precum și să fie prelucrate conform
 					prevederilor Legii Nr. 677/2001 pentru protecția persoanelor
 					cu privire la prelucrarea datelor cu caracter personal și
 					libera circulație a acestor date. Menționăm că
-					dianaseceleanu.ro va păstra confidențialitatea acestor
+					cronosmedia.ro va păstra confidențialitatea acestor
 					informații, cu excepția eventualelor informații solicitate
 					de autoritățile legale competente. Trimiterea unei
-					solicitări pe website-ul dianaseceleanu.ro reprezintă
-					acordul ca dianaseceleanu.ro să te contacteze, direct sau
-					prin partenerii contractuali, utilizând datele personale în
-					acest scop, pentru a comunica informațiile solicitate prin
+					solicitări pe website-ul cronosmedia.ro reprezintă acordul
+					ca cronosmedia.ro să te contacteze, direct sau prin
+					partenerii contractuali, utilizând datele personale în acest
+					scop, pentru a comunica informațiile solicitate prin
 					intermediul formularelor, dar și pentru a primi materiale de
 					prezentare și pentru realizarea de campanii de vânzări și
 					marketing, analize și alte activități similare.
@@ -51,7 +51,7 @@ const TermsAndConditions = () => {
 					serviciilor
 				</h2>
 				<p>
-					Dianaseceleanu.ro își rezervă dreptul de a:{" "}
+					cronosmedia.ro își rezervă dreptul de a:
 					<ul>
 						<li>
 							modifica sau șterge, temporar sau permanent,
@@ -92,7 +92,7 @@ const TermsAndConditions = () => {
 					Website-ul poate include link-uri către website-urile
 					terților, care sunt controlate și conduse de alții. Orice
 					link spre un alt website nu este o recomandare a acestui
-					website, așadar dianaseceleanu.ro nu își asumă
+					website, așadar cronosmedia.ro nu își asumă
 					responsabilitatea pentru conținutul și disponibilitatea
 					acestor website-uri.
 				</p>
@@ -100,7 +100,7 @@ const TermsAndConditions = () => {
 				<p>
 					Drepturile asupra Proprietății Intelectuale din acest
 					website și materialele din acesta sau accesibile prin acesta
-					aparțin dianaseceleanu.ro sau licențelor sale.{" "}
+					aparțin cronosmedia.ro sau licențelor sale.{" "}
 				</p>
 				<p>
 					Website-ul, materialele de pe website sau cele accesibile
@@ -108,10 +108,10 @@ const TermsAndConditions = () => {
 					inerente nu pot fi copiate, distribuite, publicate,
 					licențiate, folosite sau reproduse în nici un fel, în afară
 					de măsura strict necesară pentru și cu scopul legat de
-					accesarea și utilizarea acestui website. Dianaseceleanu.ro
-					și logo-ul dianaseceleanu.ro nu pot fi utilizate, copiate
-					sau reproduse în nici un fel, fără acordul scris al
-					dianaseceleanu.ro.
+					accesarea și utilizarea acestui website. cronosmedia.ro și
+					logo-ul cronosmedia.ro nu pot fi utilizate, copiate sau
+					reproduse în nici un fel, fără acordul scris al
+					cronosmedia.ro.
 				</p>
 				<p>
 					Pentru aceste scopuri, „Drepturile asupra Proprietății
@@ -138,14 +138,14 @@ const TermsAndConditions = () => {
 					acuratețe.
 				</p>
 				<p>
-					În limita legii, dianaseceleanu.ro nu va fi trasă la
-					răspundere pentru pierderi indirecte, de orice fel sau
-					rezultate, incluzând, dar nelimitându-se la pierderi de
-					afaceri, oportunități, de date, de profituri ce rezultă din
-					sau în legătură cu utilizarea website-ului.
+					În limita legii, cronosmedia.ro nu va fi trasă la răspundere
+					pentru pierderi indirecte, de orice fel sau rezultate,
+					incluzând, dar nelimitându-se la pierderi de afaceri,
+					oportunități, de date, de profituri ce rezultă din sau în
+					legătură cu utilizarea website-ului.
 				</p>
 				<p>
-					Dianaseceleanu.ro nu oferă nicio garanție că funcționarea
+					cronosmedia.ro nu oferă nicio garanție că funcționarea
 					website-ului va fi fără întrerupere sau fără erori, că
 					defectele vor fi corectate sau că website-ul și serverul
 					care îl fac disponibil sunt lipsite de viruși sau orice
@@ -153,13 +153,13 @@ const TermsAndConditions = () => {
 				</p>
 				<h2>8. Despăgubiri</h2>
 				<p>
-					Ești de acord să despăgubești și să absolvi
-					dianaseceleanu.ro de toate răspunderile, taxele legale,
-					stricăciunile, pierderile, costurile și toate celelalte
-					cheltuieli în relație cu revendicările sau acțiunile aduse
-					împotriva dianaseceleanu.ro, apărute din orice încălcare a
-					acestor „Termene și condiții” de către tin sau alte
-					responsabilități născute din utilizarea acestui website.
+					Ești de acord să despăgubești și să absolvi cronosmedia.ro
+					de toate răspunderile, taxele legale, stricăciunile,
+					pierderile, costurile și toate celelalte cheltuieli în
+					relație cu revendicările sau acțiunile aduse împotriva
+					cronosmedia.ro, apărute din orice încălcare a acestor
+					„Termene și condiții” de către tin sau alte responsabilități
+					născute din utilizarea acestui website.
 				</p>
 				<h2>9. Anulare</h2>
 				<p>
@@ -167,7 +167,7 @@ const TermsAndConditions = () => {
 					înțelegeri sunt declarate, de către orice autoritate
 					juridică sau de o altă competență, nule, anulabile, ilegale
 					sau nonexecutabile în vreun fel sau indicative de orice alt
-					fel, ce sunt primite de tine sau de dianaseceleanu.ro din
+					fel, ce sunt primite de tine sau de cronosmedia.ro din
 					partea unei autorități competente, vom modifica acea
 					prevedere într-o manieră rezonabilă, astfel încât să se
 					conformeze intențiilor părților, fără a intra în ilegalitate
