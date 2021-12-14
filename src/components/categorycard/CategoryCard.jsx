@@ -10,7 +10,7 @@ const CategoryCard = (props) => {
 				</h3>
 				<p className="category-desc">{props.sectionDescription}</p>
 				<div className="button">
-					<a href={`/${props.btnLinkUrl}`}>{props.btnText}</a>
+					<a href={props.btnLinkUrl}>{props.btnText}</a>
 				</div>
 			</div>
 		</div>

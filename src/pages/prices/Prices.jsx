@@ -7,6 +7,7 @@ import "./prices.scss";
 import pricesData from "./pricesData";
 import packagesData from "./packagesData";
 import PackageCard from "../../components/packagecard/PackageCard";
+import Accordion from "../../components/accordion/Accordion";
 
 const Prices = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -82,6 +83,13 @@ const Prices = () => {
 						<div className="package-cards">{packagePrices}</div>
 					</div>
 				</div>
+			</div>
+			<div className="accordion">
+				<div className="faq">
+					<h2>Întrebări frecvente</h2>
+				</div>
+
+				<Accordion />
 			</div>
 
 			<Footer />

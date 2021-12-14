@@ -4,14 +4,18 @@ import Footer from "../../components/footer/Footer";
 import Menu from "../../components/menu/Menu";
 import Navbar from "../../components/navbar/Navbar";
 import "./about.scss";
-import bckimage from "../../img/caiac-1.jpg";
-import aboutData from "./aboutData";
 import CardButton from "../../components/cardbutton/CardButton";
-import { Link } from "react-router-dom";
+import { aboutData, bestOfferAbout } from "../../data";
+import backImg from "../../img/caiac-1.jpg";
+import BestOffer from "../../components/bestoffer/BestOffer";
 
 const AboutUs = (props) => {
 	const cardElements = aboutData.map((item) => {
 		return <CardButton key={item.id} {...item} />;
+	});
+
+	const cardElementsAbout = bestOfferAbout.map((item) => {
+		return <BestOffer key={item.id} {...item} backImg={backImg} />;
 	});
 	const [menuOpen, setMenuOpen] = useState(false);
 
@@ -40,25 +44,7 @@ const AboutUs = (props) => {
 				</p>
 			</div>
 
-			<div
-				className="bestoffer"
-				style={{
-					backgroundImage: `url(${bckimage})`,
-					minHeight: "60vh",
-				}}>
-				<div className="text-wrapper">
-					<div className="heading">
-						<h2>
-							{bestOffer.title}
-							<span>.</span>
-						</h2>
-						<p>{bestOffer.desc}</p>
-						<div className="button">
-							<Link to={bestOffer.btnUrl}>{bestOffer.btn}</Link>
-						</div>
-					</div>
-				</div>
-			</div>
+			{cardElementsAbout}
 			<div className="heading-container">
 				<h2 className="heading">
 					CRONOS, imagini cu impact
@@ -69,13 +55,6 @@ const AboutUs = (props) => {
 			<Footer />
 		</div>
 	);
-};
-
-const bestOffer = {
-	title: "Imagini pentru Media, Sport și Branduri",
-	desc: "Răsfoiește arhiva noastră de imagini",
-	btn: "Vezi Imaginile",
-	btnUrl: "/categorii",
 };
 
 export default AboutUs;

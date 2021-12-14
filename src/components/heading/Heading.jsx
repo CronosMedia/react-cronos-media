@@ -1,10 +1,11 @@
 import "./heading.scss";
 
-const Heading = () => {
+const Heading = (props) => {
 	return (
 		<div className="heading-container">
 			<h2 className="heading">
-				CRONOS, cele mai bune imagini<span>.</span>
+				{props.heading}
+				<span>.</span>
 			</h2>
 		</div>
 	);

@@ -1,6 +1,6 @@
-import "./editorialcard.scss";
+import "./category-card-album.scss";
 
-const EditorialCard = (props) => {
+const CategoryCardAlbum = (props) => {
 	return (
 		<div className="card">
 			<a href="/">
@@ -20,4 +20,4 @@ const EditorialCard = (props) => {
 	);
 };
 
-export default EditorialCard;
+export default CategoryCardAlbum;

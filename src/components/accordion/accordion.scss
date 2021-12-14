@@ -1,0 +1,61 @@
+@import "../../global.scss";
+
+.heading {
+	font-size: 23px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.accordion {
+	list-style: none;
+}
+
+.accordion_item {
+	border-top: 1px solid #9f9f9f;
+}
+
+.accordion-button {
+	font-size: 1.5rem;
+	background-color: $rich-black-fogra-39;
+	color: $baby-powder;
+	text-align: left;
+	font-weight: 300;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+	cursor: pointer;
+	border: none;
+	transition: 0.4s;
+
+	&:hover {
+		background-color: rgba($rich-black-fogra-39, 0.8);
+	}
+}
+
+.control {
+	font-size: 20px;
+}
+
+.answer {
+	background-color: $baby-powder;
+	padding: 2rem;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+/* activate toggle */
+.accordion_item.active .button {
+	background-color: $rich-black-fogra-39;
+	color: $baby-powder;
+}
+.answer_wrapper {
+	height: auto;
+	overflow: hidden;
+	transition: height ease 0.4s;
+}
+// .answer_wrapper.open {
+// 	height: 100px;
+// }

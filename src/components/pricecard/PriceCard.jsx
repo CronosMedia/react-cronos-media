@@ -15,7 +15,7 @@ const PriceCard = (props) => {
 					Rezoluție: <span>{props.resolution}</span>
 				</p>
 				<p>
-					Licență: <span>{props.license}</span>
+					Utilizare: <span>{props.license}</span>
 				</p>
 				<p>
 					Distribuție: <span>{props.distribution}</span>

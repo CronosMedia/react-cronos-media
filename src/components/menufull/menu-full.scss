@@ -1,0 +1,21 @@
+@import "../../global.scss";
+
+.full-menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	a {
+		padding: 2rem;
+		font-size: 1.1rem;
+		font-weight: 400;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: $rich-black-fogra-39;
+		transition: 0.4s;
+
+		&:hover {
+			color: $flame;
+		}
+	}
+}
