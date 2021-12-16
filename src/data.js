@@ -222,25 +222,25 @@ export const creative = [
 		id: 5,
 		title: "Fitness & Health",
 		description: "Healthy food",
-		imageUrl: "frunze.jpg",
+		imageUrl: "tir-3.jpg",
 	},
 	{
 		id: 6,
 		title: "Fitness & Health",
 		description: "Running for a healthy life",
-		imageUrl: "fitness-1.JPG",
+		imageUrl: "painted-hands.JPG",
 	},
 	{
 		id: 7,
 		title: "Travel the world",
 		description: "Destinații de călătorie - Cappadochia, Turcia",
-		imageUrl: "capadochia-baloane-1.jpg",
+		imageUrl: "corona.jpg",
 	},
 	{
 		id: 8,
 		title: "Landscape",
 		description: "Road to the mountains",
-		imageUrl: "fitness-3.JPG",
+		imageUrl: "fitness-2.jpg",
 	},
 ];
 
@@ -413,6 +413,110 @@ export const sportTextHome = [
 			"Una dintre cele mai complete arhive de imagini sportive din România. Cele mai bune fotografii din majoritatea competițiilor sportive. Aruncă doar o privire.",
 		btnText: "Imagini Sport",
 		btnLinkUrl: "/sport",
+	},
+];
+
+export const diversityTextCreative = [
+	{
+		id: 1,
+		sectionTitle: "Diversity",
+		sectionDescription:
+			"Culori, culturi, forme. Toate la un loc într-o combinație unică.",
+		btnText: "Colecții Creative",
+		btnLinkUrl: "/categorii",
+	},
+];
+
+export const wellnessTextCreative = [
+	{
+		id: 1,
+		sectionTitle: "Wellness, Fitness & Health",
+		sectionDescription: "Mintea și trupul este tot ce contează",
+		btnText: "Colecții Creative",
+		btnLinkUrl: "/categorii",
+	},
+];
+
+export const sportCreativeTextCreative = [
+	{
+		id: 1,
+		sectionTitle: "Sport Creative",
+		sectionDescription:
+			"Performanta, freestyle, oameni motivati si cu pofta de viata.",
+		btnText: "Colecții Creative",
+		btnLinkUrl: "/categorii",
+	},
+];
+
+export const sportCreativeAlbumsCreative = [
+	{
+		id: 1,
+		albumTitle: "Wellness",
+		albumDescription: "Minte sanatoasa in corp sanatos",
+		albumImageUrl: "handbal-1.jpg",
+		albumLinkUrl: "/",
+	},
+	{
+		id: 2,
+		albumTitle: "Fitness",
+		albumDescription: "Mentine-te in forma",
+		albumImageUrl: "gimnastica-4.jpg",
+		albumLinkUrl: "/",
+	},
+	{
+		id: 3,
+		albumTitle: "Health",
+		albumDescription: "Sanatate inainte de toate",
+		albumImageUrl: "caiac-1.jpg",
+		albumLinkUrl: "/",
+	},
+];
+
+export const wellnessAlbumsCreative = [
+	{
+		id: 1,
+		albumTitle: "Wellness",
+		albumDescription: "Minte sanatoasa in corp sanatos",
+		albumImageUrl: "ski-1.jpg",
+		albumLinkUrl: "/",
+	},
+	{
+		id: 2,
+		albumTitle: "Fitness",
+		albumDescription: "Mentine-te in forma",
+		albumImageUrl: "healthy.jpg",
+		albumLinkUrl: "/",
+	},
+	{
+		id: 3,
+		albumTitle: "Health",
+		albumDescription: "Sanatate inainte de toate",
+		albumImageUrl: "tenis-2.jpg",
+		albumLinkUrl: "/",
+	},
+];
+
+export const diversityAlbumsCreative = [
+	{
+		id: 1,
+		albumTitle: "Diversity",
+		albumDescription: "Premiera oficială a filmului Space Jam 2",
+		albumImageUrl: "atletism-3.jpg",
+		albumLinkUrl: "/",
+	},
+	{
+		id: 2,
+		albumTitle: "Diversity",
+		albumDescription: "Premiera oficială a filmului Space Jam 2",
+		albumImageUrl: "fitness-2.jpg",
+		albumLinkUrl: "/",
+	},
+	{
+		id: 3,
+		albumTitle: "Diversity",
+		albumDescription: "Premiera oficială a filmului Space Jam 2",
+		albumImageUrl: "formula-1-img-3.JPG",
+		albumLinkUrl: "/",
 	},
 ];
 
@@ -654,5 +758,44 @@ export const archiveAlbumsSport = [
 		albumDescription: "Turneul Olimpic de Haltere, Atlanta 1996",
 		albumImageUrl: "haltere-1.jpg",
 		albumLinkUrl: "/",
+	},
+];
+
+export const imgAssignments = [
+	{
+		id: 1,
+		imageUrl: "stanciu-1.jpg",
+	},
+	{
+		id: 2,
+		imageUrl: "stanciu-2.jpg",
+	},
+	{
+		id: 3,
+		imageUrl: "stanciu-3.jpg",
+	},
+	{
+		id: 4,
+		imageUrl: "stanciu-4.jpg",
+	},
+	{
+		id: 5,
+		imageUrl: "stanciu-5.jpg",
+	},
+	{
+		id: 6,
+		imageUrl: "stanciu-6.jpg",
+	},
+	{
+		id: 7,
+		imageUrl: "stanciu-7.jpg",
+	},
+	{
+		id: 8,
+		imageUrl: "stanciu-8.jpg",
+	},
+	{
+		id: 9,
+		imageUrl: "stanciu-9.jpg",
 	},
 ];

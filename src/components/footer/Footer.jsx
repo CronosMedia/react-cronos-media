@@ -14,10 +14,12 @@ const Footer = () => {
 							<Link to="/preturi" className="item-link">
 								Prețuri și Licențe
 							</Link>
-							<Link to="/preturi" className="item-link">
+							<Link to="/categorii" className="item-link">
 								Categorii de Imagini
 							</Link>
-							<Link to="/preturi" className="item-link">
+							<Link
+								to="/fotografie-la-cerere"
+								className="item-link">
 								Fotografie la Cerere
 							</Link>
 						</div>
