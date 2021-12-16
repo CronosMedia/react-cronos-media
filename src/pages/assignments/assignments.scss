@@ -1,7 +1,8 @@
 @import "../../global.scss";
 
 .assignments {
-	.heading-wrapper {
+	.heading-wrapper,
+	.case-study {
 		// min-height: 100vh;
 		display: flex;
 		flex-direction: column;
@@ -9,6 +10,8 @@
 		justify-content: center;
 		width: 40vw;
 		margin: 5rem auto;
+		border-bottom: 1px solid $rich-black-fogra-39;
+		padding-bottom: 2rem;
 		h1 {
 			margin-bottom: 3rem;
 			font-size: 2rem;
@@ -17,7 +20,10 @@
 		}
 
 		h2 {
-			margin: 3rem auto 1.5rem;
+			font-size: 1.8rem;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin: 0 auto 2rem;
 		}
 		p {
 			font-size: 1.2rem;

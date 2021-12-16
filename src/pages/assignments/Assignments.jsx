@@ -36,7 +36,8 @@ const Assignments = () => {
 					noastră de email clients@cronosmedia.ro sau folosind
 					formularul de contact.
 				</p>
-
+			</div>
+			<div className="case-study">
 				<h2>Studiu de caz</h2>
 				<p>
 					Client: <span>Belga Images</span>
