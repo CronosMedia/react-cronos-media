@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "./footer.scss";
+import { Link } from 'react-router-dom';
+import './footer.scss';
 
 const Footer = () => {
 	return (
@@ -11,10 +11,14 @@ const Footer = () => {
 							Oferte<span>.</span>
 						</h3>
 						<div className="column-items">
-							<Link to="/preturi" className="item-link">
+							<Link
+								to="/preturi"
+								className="item-link">
 								Prețuri și Licențe
 							</Link>
-							<Link to="/categorii" className="item-link">
+							<Link
+								to="/categorii"
+								className="item-link">
 								Categorii de Imagini
 							</Link>
 							<Link
@@ -32,13 +36,19 @@ const Footer = () => {
 							Cronos<span>.</span>
 						</h3>
 						<div className="column-items">
-							<Link to="/despre-noi" className="item-link">
+							<Link
+								to="/despre-noi"
+								className="item-link">
 								Despre Noi
 							</Link>
-							<Link to="/preturi" className="item-link">
+							<Link
+								to="/preturi"
+								className="item-link">
 								Lucrează cu noi
 							</Link>
-							<Link to="/preturi" className="item-link">
+							<Link
+								to="/preturi"
+								className="item-link">
 								Blog
 							</Link>
 						</div>
@@ -51,13 +61,19 @@ const Footer = () => {
 							Contact<span>.</span>
 						</h3>
 						<div className="column-items">
-							<Link to="/preturi" className="item-link">
+							<Link
+								to="/preturi"
+								className="item-link">
 								Clienți
 							</Link>
-							<Link to="/preturi" className="item-link">
+							<Link
+								to="/preturi"
+								className="item-link">
 								Fotografi
 							</Link>
-							<Link to="/preturi" className="item-link">
+							<Link
+								to="/preturi"
+								className="item-link">
 								Întrebări Frecvente
 							</Link>
 						</div>
@@ -80,7 +96,9 @@ const Footer = () => {
 								className="item-link">
 								Condiții de Licențiere
 							</Link>
-							<Link to="/despre-cookies" className="item-link">
+							<Link
+								to="/despre-cookies"
+								className="item-link">
 								Despre Cookies
 							</Link>
 						</div>
@@ -93,13 +111,19 @@ const Footer = () => {
 							Social<span>.</span>
 						</h3>
 						<div className="column-items">
-							<Link to="/preturi" className="item-link">
+							<Link
+								to="/preturi"
+								className="item-link">
 								Instagram
 							</Link>
-							<Link to="/preturi" className="item-link">
+							<Link
+								to="/preturi"
+								className="item-link">
 								Facebook
 							</Link>
-							<Link to="/preturi" className="item-link">
+							<Link
+								to="/preturi"
+								className="item-link">
 								Twitter
 							</Link>
 						</div>
@@ -114,18 +138,18 @@ const Footer = () => {
 							href="https://cronosmedia.ro"
 							className="copyright-link">
 							CRONOS
-						</a>{" "}
+						</a>{' '}
 						&#169; 2022
 					</p>
 				</div>
 
 				<div className="small-footer-copyright-info">
 					<p className="copyright-text">
-						Creat de{" "}
+						Creat de{' '}
 						<a
-							href="https://netfan.ro/servicii-de-web-design"
+							href="#"
 							className="copyright-link">
-							NetFan
+							Cronos
 						</a>
 					</p>
 				</div>
